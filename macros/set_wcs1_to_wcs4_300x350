@@ -1,0 +1,9 @@
+;
+; Set the Wcs x,y origin to the workhold position with a z of 100
+;
+
+
+G10 L2 P1 X119.7 Y99.2 Z75
+G10 L2 P2 X119.7 Y449.2 Z75
+G10 L2 P3 X419.7 Y449.2 Z75
+G10 L2 P4 X419.7 Y99.2 Z75
