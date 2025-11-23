@@ -33,7 +33,7 @@ M669 K0 ; configure Cartesian kinematics
 
 ; Probes
 M558 K0 P5 C"!io1.in" H50 F120 T9000 ; configure digital probe via slot #0
-G31 P500 X0 Y0 Z25.4 ; set Z probe trigger value, offset and trigger height
+G31 P500 X0 Y0 Z-25.4 ; set Z probe trigger value, offset and trigger height
 
 ; Endstops
 M574 X1 P"!io3.in" S1 ; configure X axis endstop
