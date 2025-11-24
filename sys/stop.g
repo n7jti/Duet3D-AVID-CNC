@@ -10,6 +10,6 @@ M400
 
 
 ; COMMAND_STOP_SPINDLE
-M98 P"0:/macros/router_off.g"
 M5
-G0 Z150.000
+M98 P"0:/macros/router_off.g"
+G53 G0 Z175
